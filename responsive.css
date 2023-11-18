@@ -4,27 +4,6 @@
         width: 720px;
     }
 
-    .nav-link {
-        display: initial;
-    }
-    
-    .search-download-box {
-        display: initial;
-    }
-
-    .menu-btn {
-        display: none;
-    }
-
-    .search-box,
-    .search-download-box {
-        display: flex;
-    }
-
-    .search-box input {
-        display: none;
-    }
-
     .welcome-section .container {
         display: grid;
         grid-template-columns: 1fr 2fr;
@@ -37,6 +16,19 @@
     .testimonials-section .container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    .photo {
+        margin: 20px;
+        text-align: center;
+    }
+
+    .container-info {
+        order: 2;
+    }
+
+    .container-info1 {
+        order: 1;
     }
 
     .Intellisense-section .container {
@@ -96,8 +88,26 @@
         width: 960px;
     }
 
-    .search-box input {
+    .nav-link {
+        display: initial;
+    }
+    
+    .search-download-box {
+        display: initial;
+    }
+
+    .menu-btn {
+        display: none;
+    }
+
+    .search-box,
+    .search-download-box {
         display: flex;
+        height: 50px;
+    }
+
+    .search-box input {
+        display: none;
     }
 
     .languages {
@@ -128,12 +138,16 @@
         display: grid;
         grid-template-columns: auto auto ;
         text-align: center;
-        margin-left: 0;
+        margin: auto;
     }
 }
 
 @media screen and (min-width: 1200px) {
     .container {
         width: 1170px;
+    }
+
+    .search-box input {
+        display: flex;
     }
 }
