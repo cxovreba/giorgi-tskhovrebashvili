@@ -10,16 +10,66 @@
 
 .container {
     margin: auto;
-    width: 100%;
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    padding: 72px 24px 71px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: var(--shady-white);
 }
 
 * {
     box-sizing: border-box;
     font-family: 'Barlow Semi Condensed', sans-serif;
+    font-style: normal;
 }
 
 body {
-    background-color: var(--shady-white);
+    margin: 0;
+}
+
+.card-container {
+    background-color: var(--darl-purple);
+    width: 327px;
+    margin: auto;
+    padding-block: 25px 33px;
+    padding-inline: 32px;
+    border-radius: 8px;
+}
+
+.card-container1 {
+    background-color: var(--grey);
+    width: 327px;
+    margin: auto;
+    padding-block: 26px 32px;
+    padding-inline: 32px;
+    border-radius: 8px;
+}
+
+.card-container2 {
+    background-color: var(--white);
+    width: 327px;
+    margin: auto;
+    padding-block: 26px 32px;
+    padding-inline: 32px;
+    border-radius: 8px;
+}
+
+.card-container3 {
+    background-color: var(--dark);
+    width: 327px;
+    margin: auto;
+    padding-block: 26px 32px;
+    padding-inline: 32px;
+    border-radius: 8px;
+}
+
+.id {
+    display: flex;
+    gap: 17px;
+    border: 1px solid black;
 }
 
 .layout {
@@ -31,4 +81,76 @@ body {
 .layout1 {
     width: 28px;
     border-radius: 28px;
+}
+
+.id-info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.id-info .name {
+    color: var(--white);
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 13px;
+}
+
+.id-info .name1 {
+    color: var(--grey);
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 13px;
+}
+
+.id-info .status {
+    color: var(--white);
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 11px;
+    opacity: 0.5;
+}
+
+.id-info .status1 {
+    color: var(--grey);
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 11px;
+    opacity: 0.5;
+}
+
+.preview h3 {
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    width: 263px;
+}
+
+.preview1 h3 {
+    color: var(--grey);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    width: 263px;
+}
+
+.info p {
+    color: var(--ash);
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18px;
+    width: 263px;
+    opacity: 0.7;
+}
+
+.info1 p {
+    color: var(--grey);
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18px;
+    width: 263px;
+    opacity: 0.7;
 }
