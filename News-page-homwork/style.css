@@ -37,6 +37,7 @@ body {
     padding-block: 25px 33px;
     padding-inline: 32px;
     border-radius: 8px;
+    position: relative;
 }
 
 .card-container1 {
@@ -66,10 +67,18 @@ body {
     border-radius: 8px;
 }
 
+.card-container4 {
+    background-color: var(--white);
+    width: 327px;
+    margin: auto;
+    padding-block: 26px 32px;
+    padding-inline: 32px;
+    border-radius: 8px;
+}
+
 .id {
     display: flex;
     gap: 17px;
-    border: 1px solid black;
 }
 
 .layout {
@@ -121,9 +130,16 @@ body {
     opacity: 0.5;
 }
 
+.img {
+    position: absolute;
+    top: 0;
+    right: 24px;
+    width: 104px;
+}
+
 .preview h3 {
     color: var(--white);
-    font-size: 20px;
+    font-size: 19px;
     font-weight: 600;
     line-height: normal;
     width: 263px;
@@ -131,7 +147,7 @@ body {
 
 .preview1 h3 {
     color: var(--grey);
-    font-size: 20px;
+    font-size: 19px;
     font-weight: 600;
     line-height: normal;
     width: 263px;
@@ -139,18 +155,20 @@ body {
 
 .info p {
     color: var(--ash);
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 500;
     line-height: 18px;
     width: 263px;
     opacity: 0.7;
+    margin: 0;
 }
 
 .info1 p {
     color: var(--grey);
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 500;
     line-height: 18px;
     width: 263px;
     opacity: 0.7;
+    margin: 0;
 }
