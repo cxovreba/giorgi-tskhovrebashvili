@@ -1,0 +1,34 @@
+:root {
+    --white: #FFFFFF;
+    --shady-white: #ECF2F8;
+    --ash: #CFCFCF;
+    --grey: #48556A;
+    --dark: #19202D;
+    --purple: #A775F1;
+    --darl-purple: #733FC8;
+}
+
+.container {
+    margin: auto;
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+body {
+    background-color: var(--shady-white);
+}
+
+.layout {
+    width: 28px;
+    border-radius: 28px;
+    border: 2px solid #A775F1;
+}
+
+.layout1 {
+    width: 28px;
+    border-radius: 28px;
+}
