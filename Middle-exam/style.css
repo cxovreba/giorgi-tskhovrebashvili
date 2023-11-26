@@ -1,0 +1,210 @@
+:root {
+    --white: #FFFFFF;
+    --shady-white: #E8EFF2;
+    --grey: #7B8BAD;
+    --dark: #162542;
+    --light-orange: #FF9B62;
+    --orange: #F16718;
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    background-color: var(--white);
+    padding: 24px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--shady-white);
+    margin: 0;
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btn1 {
+    width: 150px;
+    height: 48px;
+    background-color: var(--shady-white);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btn1 :hover {
+    background-color: var(--dark);
+    color: var(--white);
+    width: 150px;
+    height: 48px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn1 a {
+    text-decoration: none;
+    color: var(--dark);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    width: 140px;
+}
+
+.welcome-section .container {
+    gap: 25px;
+}
+
+.welcome-section .pre-order-col {
+    width: 327px;
+}
+
+.name h1 {
+    color: var(--dark);
+    font-size: 43px;
+    font-weight: 900;
+    line-height: 48px;
+    text-transform: uppercase;
+    width: 327px;
+    height: 96px;
+}
+
+.info p {
+    color: var(--grey);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    width: 327px;
+}
+
+.order {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.btn2 {
+    width: 150px;
+    height: 48px;
+    background-color: var(--orange);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btn2 :hover {
+    background-color: var(--light-orange);
+    width: 150px;
+    height: 48px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn2 a {
+    text-decoration: none;
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    width: 140px;
+}
+
+.date p {
+    color: var(--grey);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+
+.image1 {
+    width: 375px;
+    height: 330px;
+    border-radius: 20px;
+}
+
+.description-section .container {
+    padding: 0;
+}
+
+.image-col {
+    display: flex;
+    gap: 14px;
+}
+
+.image2 {
+    opacity: 0.7486;
+    mix-blend-mode: multiply;
+    width: 129px;
+    height: 193px;
+    border-radius: 0px 20px 20px 0px;
+    color: var(--light-orange);
+}
+
+.image3 {
+    width: 220px;
+    height: 193px;
+    border-radius: 20px;
+}
+
+.description {
+    text-align: center;
+    margin: 20px;
+}
+
+.name1 h2 {
+    color: var(--dark);
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.features-section .container {
+    text-align: center;
+    gap: 30px;
+}
+
+.icon {
+    margin-block: 48px;
+}
+
+.name2 h3 {
+    color: var(--dark);
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 28px;
+    text-transform: uppercase;
+    width: 327px;
+}
+
+footer .container p {
+    color: var(--grey);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+}
+
+footer .container span {
+    font-weight: 500;
+}
