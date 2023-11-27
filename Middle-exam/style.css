@@ -69,10 +69,6 @@ header .container {
     gap: 25px;
 }
 
-.welcome-section .pre-order-col {
-    width: 327px;
-}
-
 .name h1 {
     color: var(--dark);
     font-size: 43px;
@@ -94,7 +90,7 @@ header .container {
 .order {
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 32px;
 }
 
 .btn2 {
@@ -149,6 +145,11 @@ header .container {
 .image-col {
     display: flex;
     gap: 14px;
+}
+
+.image {
+    background-color: var(--orange);
+    border-radius: 0px 20px 20px 0px;
 }
 
 .image2 {

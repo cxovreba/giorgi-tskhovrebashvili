@@ -1,0 +1,177 @@
+/*Responsive*/
+@media screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+        flex-direction: row;
+    }
+
+    .btn1 {
+        width: 175px;
+        height: 58px;
+    }
+
+    .btn1 :hover {
+        width: 175px;
+        height: 58px;
+    }
+
+    .btn2 {
+        width: 175px;
+        height: 58px;
+    }
+
+    .btn2 :hover {
+        width: 175px;
+        height: 58px;
+    }
+
+    .welcome-section .container {
+        gap: 75px;
+    }
+
+    .welcome-section .name h1 {
+        width: 339px;
+        height: 96px;
+    }
+
+    .welcome-section .info p {
+        width: 339px;
+    }
+
+    .order {
+        justify-content: space-between;
+        gap: 0;
+    }
+
+    .image1 {
+        width: 478px;
+        height: 425px;
+    }
+
+    .description-section .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image-col {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .image {
+        border-radius: 20px;
+    }
+
+    .image2 {
+        width: 214px;
+        height: 320px;
+        border-radius: 20px;
+    }
+
+    .image3 {
+        width: 445px;
+        height: 320px;
+    }
+
+    .description {
+        display: flex;
+        align-items: center;
+        text-align: start;
+        margin: 40px;
+    }
+
+    .features-section .container {
+        display: grid;
+        grid-template-columns: auto auto;
+        text-align: start;
+        gap: 65px;
+        padding-inline: 40px;
+    }
+
+    .features-section .name2 h3 {
+        width: 255px;
+    }
+
+    .features-section .info p {
+        width: 281px;
+    }
+
+    footer .container p {
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .container {
+        width: 1320px;
+        padding: 50px 150px;
+    }
+
+    .welcome-section .name h1 {
+        width: 445px;
+        height: 112px;
+    }
+
+    .welcome-section .info p {
+        width: 445px;
+        height: 78px;
+    }
+
+    .order {
+        gap: 40px;
+    }
+
+    .description-section .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .image1 {
+        width: 540px;
+        height: 480px;
+    }
+
+    .image2 {
+        width: 255px;
+        height: 480px;
+    }
+
+    .image3 {
+        width: 445px;
+        height: 480px;
+    }
+
+    .description {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .description-section .name1 h2 {
+        width: 255px;
+    }
+
+    .description-section .info p {
+        width: 255px;
+    }
+
+    .features-section .container {
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        gap: 0;
+        justify-content: space-evenly;
+    }
+
+    .features-section .name2 h3 {
+        width: 255px;
+    }
+
+    .features-section .info p {
+        width: 255px;
+    }
+
+    .image-col {
+        gap: 20px;
+    }
+}
