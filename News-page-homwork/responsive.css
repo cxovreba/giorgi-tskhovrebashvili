@@ -75,6 +75,10 @@
         height: 90px;
     }
 
+    .preview {
+        z-index: 999;
+    }
+
     .card-container1 .preview h3 {
         width: 191px;
         height: 72px;
