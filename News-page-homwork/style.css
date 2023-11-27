@@ -137,6 +137,11 @@ body {
     width: 104px;
 }
 
+.preview {
+    position: inherit;
+    z-index: 9999;
+}
+
 .preview h3 {
     color: var(--white);
     font-size: 19px;
