@@ -155,7 +155,7 @@ body {
 
 .info p {
     color: var(--ash);
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 500;
     line-height: 18px;
     width: 263px;
@@ -165,7 +165,7 @@ body {
 
 .info1 p {
     color: var(--grey);
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 500;
     line-height: 18px;
     width: 263px;
