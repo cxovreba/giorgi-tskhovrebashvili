@@ -1,0 +1,29 @@
+/*Responsive*/
+@media screen and (min-width: 1420px) {
+    .container {
+        display: flex;
+        width: 1440px;
+        padding: 80px 165px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .container .title {
+        width: 445px;
+    }
+
+    .container .title h2 {
+        font-size: 36px;
+        letter-spacing: 0.25px;
+    }
+
+    .title h2 span {
+        width: 441px;
+    }
+
+    .container .info {
+        width: 540px;
+    }
+}

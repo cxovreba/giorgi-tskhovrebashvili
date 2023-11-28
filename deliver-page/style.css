@@ -55,25 +55,71 @@ body {
 
 .container .card-container {
     margin-block: 15px;
-    width: 311px;
+    
 }
 
 .card-container {
     background-color: var(--white);
     margin: auto;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+    width: 311px;
 }
 
-.card-container .name1 {
+.card-container .name h3 {
+    color: var(--dark);
     width: 135px;
     font-size: 20px;
     font-weight: 600;
     line-height: normal;
+    margin-bottom: 0;
+    margin-left: 30px;
 }
 
-.card-container .info1 {
+.card-container .info1 p {
+    color: var(--dark);
     width: 254px;
     font-size: 13px;
     font-weight: 400;
     line-height: 23px;
     letter-spacing: 0.09px;
+    margin-top: 0;
+    margin-left: 30px;
+}
+
+.frame {
+    display: flex;
+    justify-content: end;
+    margin: 30px;
+}
+
+.rectangle {
+    width: 311px;
+    height: 3.552px;
+    background-color: var(--green);
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+    border-radius: 8px 8px 0px 0px;
+}
+
+.rectangle1 {
+    width: 311px;
+    height: 3.552px;
+    background-color: var(--red);
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+    border-radius: 8px 8px 0px 0px;
+}
+
+.rectangle2 {
+    width: 311px;
+    height: 3.552px;
+    background-color: var(--orange);
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+    border-radius: 8px 8px 0px 0px;
+}
+
+.rectangle3 {
+    width: 311px;
+    height: 3.552px;
+    background-color: var(--blue);
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+    border-radius: 8px 8px 0px 0px;
 }
