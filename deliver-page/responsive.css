@@ -7,7 +7,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
+        gap: 64px;
+        background-color: var(--shady-white);
     }
 
     .container .title {
@@ -25,5 +26,49 @@
 
     .container .info {
         width: 540px;
+    }
+
+    .container2 {
+        display: flex;
+        flex-direction: row;
+        gap: 25px;
+    }
+
+    .card-container {
+        width: 350px;
+    }
+
+    .card-container .info1 p {
+        width: 286px;
+        height: 46px;
+    }
+
+    .image {
+        width: 64px;
+        margin: 32px;
+    }
+
+    .rectangle {
+        width: 350px;
+        height: 4px;
+    }
+
+    .rectangle1 {
+        width: 350px;
+        height: 4px;
+    }
+
+    .rectangle2 {
+        width: 350px;
+        height: 4px;
+    }
+
+    .rectangle3 {
+        width: 350px;
+        height: 4px;
+    }
+
+    .column {
+        gap: 30px;
     }
 }
