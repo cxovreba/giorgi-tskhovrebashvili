@@ -1,12 +1,4 @@
-:root {
-    --white: #FFFFFF;
-    --shady-white: #ECF2F8;
-    --ash: #CFCFCF;
-    --grey: #48556A;
-    --dark: #19202D;
-    --purple: #A775F1;
-    --darl-purple: #733FC8;
-}
+@import url(color.css);
 
 .container {
     margin: auto;
