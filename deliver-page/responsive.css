@@ -1,5 +1,5 @@
 /*Responsive*/
-@media screen and (min-width: 1420px) {
+@media screen and (min-width: 1440px) {
     .container {
         display: flex;
         width: 1440px;
