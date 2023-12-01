@@ -1,0 +1,10 @@
+:root {
+    --grey: #666CA3;
+    --dark-blue: #13183F;
+    --ash: #83869A;
+    --pink: #F74780;
+    --light-pink: #FFA7C3;
+    --white: #ffffff;
+    --gradiant-pink:linear-gradient(180deg, #FF6F48 0.04%, #F02AA6 100%);
+    --gradiant-mix:linear-gradient(180deg, #4851FF 0%, #F02AA6 99.92%);
+}
