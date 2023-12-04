@@ -1,4 +1,4 @@
-const brands = [
+/*const brands = [
     'Addidas',
     'Nike',
     'Lacoste',
@@ -48,4 +48,4 @@ for (let i = 0; i < chocolate.length; i++) {
     for (let j = 0; j < chocolate[i].size.length; j++) {
         console.log(chocolate[i].size[j]);
     }
-}
+}*/
