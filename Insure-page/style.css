@@ -1,0 +1,17 @@
+@import url(color.css);
+
+.container {
+    margin: auto;
+    width: 375px;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+}
