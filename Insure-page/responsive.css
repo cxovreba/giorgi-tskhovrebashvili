@@ -1,0 +1,6 @@
+/*Responsive*/
+@media screen and (min-width: px) {
+    .container {
+        width: px;
+    }
+}    
