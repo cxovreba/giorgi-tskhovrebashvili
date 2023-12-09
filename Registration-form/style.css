@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;500&family=Plus+Jakarta+Sans&family=Poppins&display=swap');
+@import url(color.css);
+
+.container {
+    width: 375px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-image: url(./Group\ 5.png);
+    background-color: var(--red);
+    color: var(--white);
+    font-family: 'Poppins';
+    font-style: normal;
+    padding: 90px 24px;
+    gap: 64px;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.container .welcome {
+    width: 327px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.welcome .name {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: -0.292px;
+}
+
+.name h3 {
+    margin: 0;
+}
+
+.welcome .info {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.info p {
+    margin: 0;
+}
+
+.container .blank {
+    width: 327px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.blank .free {
+    background: var(--purple);
+    box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0.268px;
+}
+
+.free h4 {
+    width: 194px;
+    margin: 18px 66.5px;
+}
+
+.free small {
+    font-weight: 400;
+}
+
+.blank .form {
+    width: 327px;
+    padding: 24px;
+    background: var(--white);
+    border-radius: 10px;
+    box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.filling-space input {
+    border-radius: 5px;
+    border: 1px solid #dedede;
+    width: 279px;
+    height: 56px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0.25px;
+    opacity: 0.75;
+}
+
+.btn button {
+    background: var(--green);
+    box-shadow: 0px -4px 0px 0px rgba(0, 0, 0, 0.09) inset;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 1px;
+    color: var(--white);
+    width: 279px;
+    height: 56px;
+    border: var(--green);
+    cursor: pointer;
+}
+
+.form .info1 {
+    color: var(--grey);
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 21px;
+    padding-inline: 15px;
+    margin-top: -8px;
+}
+
+.info1 p {
+    width: 249px;
+    margin: 0;
+}
+
+.info1 span {
+    color: var(--red);
+    font-weight: 700;
+}

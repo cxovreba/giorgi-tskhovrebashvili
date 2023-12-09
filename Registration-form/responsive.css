@@ -1,0 +1,62 @@
+/*Responsive*/
+@media screen and (min-width: 1440px) {
+    .container {
+        width: 1440px;
+        flex-direction: row;
+        padding: 121px 165px;
+        gap: 45px;
+    }
+
+    .container .welcome {
+        width: 525px;
+        text-align: start;
+        padding-block: 169px;
+        gap: 20px;
+    }
+
+    .welcome .name {
+        font-size: 50px;
+        line-height: 55px;
+        letter-spacing: -0.521px;
+    }
+
+    .container .blank {
+        width: 540px;
+    }
+
+    .free h4 {
+        width: 316px;
+        margin: 17px 112px;
+    }
+
+    .blank .form {
+        width: 540px;
+        padding: 40px;
+        gap: 20px;
+    }
+
+    .filling-space input {
+        width: 460px;
+    }
+
+    .filling-space input:hover {
+        border: 1px solid var(--purple);
+    }
+
+    .btn button {
+        width: 460px;
+    }
+
+    .btn button:hover {
+        background: #77E2B3;
+    }
+
+    .form .info1 {
+        margin-top: -16px;
+        padding-inline: 46.5px;
+    }
+
+    .info1 p {
+        width: 370px;
+    }
+}
