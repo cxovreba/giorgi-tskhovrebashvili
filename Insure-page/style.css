@@ -33,6 +33,7 @@ header .container {
 
 .image {
     order: 1;
+    z-index: 9;
 }
 
 .welcome-col {
@@ -266,6 +267,35 @@ footer .container {
     text-decoration: none;
 }
 
+.background {
+    position: relative;
+}
+
 .background img {
     position: absolute;
+    left: -187px;
+}
+
+.pic1 {
+    top: -380px;
+}
+
+.pic2 {
+    top: -345px;
+}
+
+.pic3 {
+    top: -325px;
+}
+
+.pic4 {
+    top: -300px;
+}
+
+.pic5 {
+    top: -280px;
+}
+
+.pic6 {
+    top: -270px;
 }

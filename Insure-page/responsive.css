@@ -214,4 +214,32 @@
     .info-option a:hover {
         text-decoration: underline;
     }
+
+    .background img {
+        left: -285px;
+    }
+
+    .pic1 {
+        top: 290px;
+    }
+    
+    .pic2 {
+        top: 325px;
+    }
+    
+    .pic3 {
+        top: 350px;
+    }
+    
+    .pic4 {
+        top: 375px;
+    }
+    
+    .pic5 {
+        top: 395px;
+    }
+    
+    .pic6 {
+        top: 410px;
+    }
 }    
