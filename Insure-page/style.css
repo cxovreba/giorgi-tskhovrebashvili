@@ -265,3 +265,7 @@ footer .container {
     letter-spacing: 1.5px;
     text-decoration: none;
 }
+
+.background img {
+    position: absolute;
+}

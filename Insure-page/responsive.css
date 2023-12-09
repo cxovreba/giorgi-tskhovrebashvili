@@ -1,6 +1,217 @@
 /*Responsive*/
-@media screen and (min-width: px) {
+@media screen and (min-width: 1440px) {
     .container {
-        width: px;
+        width: 1440px;
+    }
+
+    header .container {
+        gap: 548px;
+        padding-inline: 165px;
+    }
+
+    .pic {
+        display: none;
+    }
+
+    .options {
+        display: inherit;
+        gap: 26px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .options a {
+        color: var(--light-brown);
+        font-family: 'Karla';
+        font-size: 13px;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 1.5px;
+        text-decoration: none;
+    }
+
+    .options a:hover {
+        color: var(--black);
+    }
+
+    .options .button {
+        width: 146px;
+        border: 1.5px solid var(--black);
+        background: var(--white);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 26.5px;
+        cursor: pointer;
+    }
+
+    .button a {
+        color: var(--black);
+        font-family: 'Karla';
+        font-size: 13px;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 1.5px;
+        text-align: center;
+    }
+
+    .options .button:hover {
+        background: var(--black);
+    }
+
+    .button a:hover {
+        color: var(--white);
+    }
+
+    .welcome-section .container {
+        flex-direction: row;
+        background: var(--dark-blue);
+        padding-inline: 165px;
+        position: relative;
+    }
+
+    .welcome-col {
+        order: 1;
+        text-align: start;
+        align-items: start;
+        width: 540px;
+    }
+
+    .rectangle {
+        display: inherit;
+        width: 150px;
+        height: 1px;
+        background: var(--white);
+        margin-bottom: 63px;
+    }
+
+    .welcome-col .title {
+        width: 540px;
+        font-size: 72px;
+        line-height: 64px;
+        letter-spacing: -1px;
+    }
+
+    .welcome-col .info {
+        width: 540px;
+    }
+
+    .welcome-col .btn:hover {
+        background: var(--white);
+    }
+
+    .btn a:hover {
+        color: var(--black);
+    }
+    
+    .image {
+        order: 2;
+        position: absolute;
+        width: 540px;
+        height: 640px;
+        top: 93px;
+        right: 150px;
+    }
+
+    .image img {
+        width: 540px;
+        height: 640px;
+    }
+
+    .option-section .container {
+        margin: 305px 165px 150px;
+        text-align: start;
+        gap: 158px;
+    }
+
+    .rectangle1 {
+        left: 0;
+    }
+
+    .method-list .name {
+        width: 666px;
+        font-size: 72px;
+        line-height: 64px;
+        letter-spacing: -1px;
+        margin-block: 63px 96px;
+    }
+
+    .method-list .methods {
+        flex-direction: row;
+        gap: 30px;
+        width: 1110px;
+    }
+
+    .methods .method {
+        width: 350px;
+    }
+
+    .method .name1 {
+        margin-block: 32px 10px;
+    }
+
+    .name1 h4 {
+        margin: 0;
+    }
+
+    .work {
+        width: 1110px;
+        padding: 69px 81px;
+    }
+
+    .work .box {
+        flex-direction: row;
+        gap: 285px;
+        width: 948px;
+    }
+
+    .box .name2 {
+        font-size: 56px;
+        line-height: 56px;
+        letter-spacing: -0.778px;
+        width: 495px;
+    }
+
+    .box .btn1:hover {
+        background: var(--white);
+    }
+
+    .btn1 a:hover {
+        color: var(--black);
+    }
+
+    footer .container {
+        width: 1440px;
+        padding: 64px 165px;
+        text-align: start;
+        gap: 33px 48px;
+    }
+
+    .top-footer {
+        width: 1110px;
+        flex-direction: row;
+        gap: 850px;
+    }
+
+    .top-footer .social-media {
+        cursor: pointer;
+    }
+
+    .rectangle2 {
+        width: 1110px;
+    }
+
+    .company-info {
+        width: 1110px;
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    .company-info .section {
+        width: 255px;
+    }
+
+    .info-option a:hover {
+        text-decoration: underline;
     }
 }    
