@@ -63,7 +63,7 @@ const passValidator = () => {
     }
 }
 
-submit.addEventListener('mouseover', () => {
+submit.addEventListener('click', () => {
     fnameValidator();
     lnameValidator();
     emailValidator();

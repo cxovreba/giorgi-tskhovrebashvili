@@ -134,3 +134,23 @@ body {
     color: var(--red);
     font-weight: 700;
 }
+
+.fname-alert {
+    display: flex;
+    justify-content: end;
+}
+
+.lname-alert {
+    display: flex;
+    justify-content: end;
+}
+
+.email-alert {
+    display: flex;
+    justify-content: end;
+}
+
+.pass-alert {
+    display: flex;
+    justify-content: end;
+}
