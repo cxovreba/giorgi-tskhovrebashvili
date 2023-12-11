@@ -43,11 +43,11 @@
         border: 1px solid var(--purple);
     }
 
-    .btn button {
+    .btn {
         width: 460px;
     }
 
-    .btn button:hover {
+    .btn:hover {
         background: #77E2B3;
     }
 

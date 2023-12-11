@@ -6,7 +6,7 @@
         <title>Registration form</title>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="responsive.css">
-        <script src="app.js"></script>
+        <script src="app.js" defer></script>
     </head>
     <body>
         <div class="container">
@@ -27,19 +27,21 @@
                 <div class="form">
                     <div class="filling-space">
                         <input id="fname" type="text" placeholder="  First Name">
+                        <div class="fname-alert"></div>
                     </div>
                     <div class="filling-space">
                         <input id="lname" type="text" placeholder="  Last Name">
+                        <div class="lname-alert"></div>
                     </div>
                     <div class="filling-space">
                         <input id="email" type="email" placeholder="  Email Address">
+                        <div class="email-alert"></div>
                     </div>
                     <div class="filling-space">
                         <input id="pass" type="password" placeholder="  Password">
+                        <div class="pass-alert"></div>
                     </div>
-                    <div class="btn">
-                        <button>CLAIM YOUR FREE TRIAL</button>
-                    </div>
+                    <button class="btn">CLAIM YOUR FREE TRIAL</button>
                     <div class="info1">
                         <p>
                             By clicking the button, you are agreeing to our <span>Terms and Services</span>
