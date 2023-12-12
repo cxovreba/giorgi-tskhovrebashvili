@@ -1,5 +1,5 @@
 /*Responsive*/
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1470px) {
     .container {
         width: 1440px;
     }
@@ -59,7 +59,7 @@
         background: var(--black);
     }
 
-    .button a:hover {
+    .button:hover a {
         color: var(--white);
     }
 
@@ -100,7 +100,7 @@
         background: var(--white);
     }
 
-    .btn a:hover {
+    .btn:hover a {
         color: var(--black);
     }
     
@@ -176,7 +176,7 @@
         background: var(--white);
     }
 
-    .btn1 a:hover {
+    .btn1:hover a {
         color: var(--black);
     }
 
