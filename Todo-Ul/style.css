@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Plus+Jakarta+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Plus+Jakarta+Sans&family=Russo+One&display=swap');
+@import url(color.css);
+
+.container {
+    width: 962px;
+    margin: auto;
+    display: inline-flex;
+    margin: 162px 332px 162px 306px;
+    align-items: center;
+    gap: 296px;
+}
+
+* {
+    box-sizing: border-box;
+    font-style: normal;
+    line-height: normal;
+}
+
+body {
+    margin: 0;
+}
+
+.title {
+    color: var(--blue);
+    font-family: 'Inter';
+    font-size: 96px;
+    font-weight: 700;
+}
+
+.add-form {
+    width: 430px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.openning {
+    background-image: url(./pic/Rectangle\ 2.png);
+    width: 430px;
+    height: 202px;
+    border-radius: 10px 10px 0px 0px;
+    color: var(--white);
+    font-family: 'Russo One';
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    padding: 15px;
+}
+
+.time h3 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.date h3 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.add {
+    padding-inline: 28.5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.add-note {
+    width: 430px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+}
+
+.add-note input {
+    width: 275px;
+    height: 49px;
+    background: var(--shady-white);
+    border: 1px;
+    padding: 12px 189px 13px 14px;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btn {
+    display: flex;
+    width: 88px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+    height: 100%;
+    background: var(--green);
+}
+
+.btn1 {
+    background-image: url(./pic/akar-icons_trash-can.svg);
+    width: 25px;
+    height: 25px;
+}
