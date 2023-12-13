@@ -97,8 +97,23 @@ body {
     background: var(--green);
 }
 
+li {
+    list-style: none;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 500;
+}
+
+li input {
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    background-color: var(--green);
+}
+
 .btn1 {
     background-image: url(./pic/akar-icons_trash-can.svg);
     width: 25px;
     height: 25px;
+    border: 1px var(--white);
 }

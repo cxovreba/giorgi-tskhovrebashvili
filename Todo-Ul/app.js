@@ -1,9 +1,13 @@
 const add = document.querySelector('.btn');
 const ul = document.querySelector('.ul');
 
+const date = new Date();
+date.getDate();
+date.getTime();
+
 const generateListItem = val => {
     const li = document.createElement('li');
-    li.innerHTML = `${val} <input style="15px" type="radio"/> <button class="btn1"></button>`;
+    li.innerHTML = `${val} <input type="checkbox"/> <button class="btn1"></button>`;
     ul.appendChild(li);
 }
 
