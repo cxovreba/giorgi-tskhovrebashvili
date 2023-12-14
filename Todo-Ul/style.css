@@ -7,6 +7,7 @@
     margin: auto;
     display: inline-flex;
     margin: 162px 332px 162px 306px;
+    justify-content: center;
     align-items: center;
     gap: 296px;
 }
@@ -19,6 +20,7 @@
 
 body {
     margin: 0;
+    background: var(--shade);
 }
 
 .title {
@@ -33,10 +35,9 @@ body {
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    gap: 23px;
 }
 
-.openning {
+.date {
     background-image: url(./pic/Rectangle\ 2.png);
     width: 430px;
     height: 202px;
@@ -51,36 +52,39 @@ body {
     padding: 15px;
 }
 
-.time h3 {
+#time {
     font-size: 48px;
     margin: 0;
 }
 
-.date h3 {
+#day {
     font-size: 18px;
     margin: 0;
 }
 
 .add {
+    padding-block: 23px 78px;
     padding-inline: 28.5px;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    background: var(--white);
 }
 
 .add-note {
-    width: 430px;
+    width: 275px;
+    height: 49px;
     display: flex;
     align-items: center;
     gap: 10px;
     border-radius: 5px;
+    background: var(--shady-white);
+    padding: 12px 189px 13px 14px;
 }
 
 .add-note input {
-    width: 275px;
-    height: 49px;
     background: var(--shady-white);
-    border: 1px;
-    padding: 12px 189px 13px 14px;
+    border: 0px;
     font-family: 'Inter';
     font-size: 16px;
     font-weight: 400;
@@ -89,30 +93,46 @@ body {
 .btn {
     display: flex;
     width: 88px;
-    padding: 10px;
+    padding: 13px;
     justify-content: center;
-    align-items: center;
     gap: 11px;
-    height: 100%;
     background: var(--green);
+    border: 1px solid var(--white);
+}
+
+#ul {
+    width: 373px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 0;
+    margin-top: 36px;
+    background: var(--white);
+    grid-column: 1 / 3;
 }
 
 li {
+    margin-inline: 5px;
     list-style: none;
     font-family: 'Inter';
     font-size: 18px;
     font-weight: 500;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-li input {
+.checkbox {
     width: 25px;
     height: 25px;
-    border-radius: 50px;
-    background-color: var(--green);
+    border-radius: 20px;
+    border: 3px solid var(--green);
+    background: var(--white);
 }
 
 .btn1 {
     background-image: url(./pic/akar-icons_trash-can.svg);
+    background-color: var(--white);
     width: 25px;
     height: 25px;
     border: 1px var(--white);
