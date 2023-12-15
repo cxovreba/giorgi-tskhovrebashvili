@@ -1,7 +1,7 @@
 /*Responsive*/
 @media screen and (min-width: 1440px) {
     .container {
-        width: 1440px;
+        width: 1410px;
         flex-direction: row;
         padding: 121px 165px;
         gap: 45px;

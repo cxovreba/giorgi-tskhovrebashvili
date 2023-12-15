@@ -154,3 +154,51 @@ body {
     display: flex;
     justify-content: end;
 }
+
+.filling-space {
+    position: relative;
+}
+
+.alert1 {
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+
+.alert1.active {
+    display: block;
+}
+
+.alert2 {
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+
+.alert2.active {
+    display: block;
+}
+
+.alert3 {
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+
+.alert3.active {
+    display: block;
+}
+
+.alert4 {
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+
+.alert4.active {
+    display: block;
+}

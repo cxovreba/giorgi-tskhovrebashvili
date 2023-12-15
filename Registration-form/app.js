@@ -13,9 +13,12 @@ const fnameValidator = () => {
         fname.style.borderColor = 'red';
         alert.innerText = 'First Name cannot be empty';
         alert.style.color = 'red';
+        const alertSign = document.querySelector('.alert1');
+        alertSign.classList.toggle('active');
     }
     else{
         fname.style.borderColor = 'green';
+        alert.remove();
     }
 }
 
@@ -27,9 +30,12 @@ const lnameValidator = () => {
         lname.style.borderColor = 'red'; 
         alert.innerText = 'Last Name cannot be empty';
         alert.style.color = 'red';
+        const alertSign = document.querySelector('.alert2');
+        alertSign.classList.toggle('active');
     }
     else{
         lname.style.borderColor = 'green';
+        alert.remove();
     }
 }
 
@@ -39,13 +45,14 @@ const emailValidator = () => {
 
     if ((val.length < 4) || (val.length > 15)) {
         email.style.borderColor = 'red';
-        email.innerText = 'email@example/com';
-        email.style.color = 'red';
         alert.innerText = 'Looks like this is not an email';
         alert.style.color = 'red';
+        const alertSign = document.querySelector('.alert3');
+        alertSign.classList.toggle('active');
     }
     else{
         email.style.borderColor = 'green';
+        alert.remove();
     }
 }
 
@@ -57,9 +64,12 @@ const passValidator = () => {
         pass.style.borderColor = 'red';
         alert.innerText = 'Password cannot be empty';
         alert.style.color = 'red';
+        const alertSign = document.querySelector('.alert4');
+        alertSign.classList.toggle('active');
     }
     else{
         pass.style.borderColor = 'green';
+        alert.remove();
     }
 }
 
