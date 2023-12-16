@@ -52,12 +52,12 @@ body {
     padding: 15px;
 }
 
-#time {
+#currentTime {
     font-size: 48px;
     margin: 0;
 }
 
-#day {
+#currentDay {
     font-size: 18px;
     margin: 0;
 }
@@ -122,18 +122,49 @@ li {
     align-items: center;
 }
 
+li div {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
 .checkbox {
+    position: relative;
     width: 25px;
     height: 25px;
+    border: 1px solid var(--green);
     border-radius: 20px;
-    border: 3px solid var(--green);
-    background: var(--white);
+    appearance: none;
+    outline: 0;
+    cursor: pointer;
+    &::before {
+        position: absolute;
+        content: '';
+        display: block;
+        top: 2px;
+        left: 7px;
+        width: 8px;
+        height: 14px;
+        border-style: solid;
+        border-color: var(--white);
+        border-width: 0 2px 2px 0;
+        transform: rotate(45deg);
+        opacity: 0;
+    }
+    &:checked {
+        color: var(--white);
+        border-color: var(--green);
+        background: var(--green);
+        &::before {
+            opacity: 1;
+        }
+    }
 }
 
 .btn1 {
     background-image: url(./pic/akar-icons_trash-can.svg);
     background-color: var(--white);
-    width: 25px;
-    height: 25px;
+    width: 24px;
+    height: 24px;
     border: 1px var(--white);
 }

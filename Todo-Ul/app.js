@@ -1,10 +1,10 @@
-const date = new Date();
-    date.getDate();
-    date.getTime();
-
-
 const add = document.querySelector('.btn');
 const ul = document.querySelector('#ul');
+
+setInterval(() => {
+    document.getElementById('currentTime').innerText = new Date().toLocaleTimeString();
+    document.getElementById('currentDay').innerText = new Date().toLocaleDateString();
+}, 1000);
 
 let counter = 0;
 
@@ -14,7 +14,7 @@ const generateListItem = val => {
     li.classList.add(`li-${counter++}`);
     li.innerHTML = `${val}`;
     ul.appendChild(li);
-    div.innerHTML = `<input class="checkbox" type="button"/> <button class="btn1" onclick="Delete(this)"></button>`;
+    div.innerHTML = `<input class="checkbox" type="checkbox"/> <button class="btn1" onclick="Delete(this)"></button>`;
     li.appendChild(div);
 }
 
