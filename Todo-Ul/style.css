@@ -6,7 +6,6 @@
     width: 962px;
     margin: auto;
     display: inline-flex;
-    margin: 162px 332px 162px 306px;
     justify-content: center;
     align-items: center;
     gap: 296px;
@@ -21,6 +20,7 @@
 body {
     margin: 0;
     background: var(--shade);
+    padding: 162px 332px 162px 306px;
 }
 
 .title {
@@ -84,10 +84,14 @@ body {
 
 .add-note input {
     background: var(--shady-white);
-    border: 0px;
+    border: none;
     font-family: 'Inter';
     font-size: 16px;
     font-weight: 400;
+}
+
+input.typing {
+    border: none;
 }
 
 .btn {
@@ -120,6 +124,7 @@ li {
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 li div {
@@ -167,4 +172,20 @@ li div {
     width: 24px;
     height: 24px;
     border: 1px var(--white);
+}
+
+.date-string {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 7px;
+    font-size: 18px;
+    margin-bottom: -20px;
+}
+
+li p {
+    position: absolute;
+    top: 7px;
+    font-size: 14px;
+    color: var(--grey);
 }
