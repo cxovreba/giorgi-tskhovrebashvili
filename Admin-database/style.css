@@ -32,3 +32,38 @@ body {
     line-height: 28px;
     margin: 0;
 }
+
+table {
+    width: 1200px;
+}
+
+tr, th {
+    text-align: start;
+    border-bottom: 2px solid var(--light-grey);
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--dark);
+}
+
+tr, td {
+    border-bottom: 1px solid var(--light-grey);
+    padding-block: 12px;
+}
+
+.amount {
+    color: var(--dark);
+    text-align: center;
+}
+
+.status {
+    text-align: center;
+    border-radius: 25px;
+    background: var(--red);
+    color: var(--white);
+    width: 45px;
+    padding: 2px 10px;
+}
+
+.status1 {
+    text-align: center;
+}
