@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Admin Database</title>
         <link rel="stylesheet" href="style.css">
-        <script src="app.js"></script>
+        <script src="app.js" defer></script>
     </head>
     <body>
         <div class="container">
@@ -16,7 +16,13 @@
                 <table id="table">
                     <tr>
                         <th><input type="checkbox"></th>
-                        <th>Title</th>
+                        <th id="title">
+                            Title 
+                            <div class="button">
+                                <button><img src="./ant-design_caret-up-filled.png" alt=""></button>
+                                <button><img src="./ant-design_caret-down-filled.png" alt=""></button>
+                            </div>
+                        </th>
                         <th>Date</th>
                         <th>title</th>
                         <th class="amount">amount</th>

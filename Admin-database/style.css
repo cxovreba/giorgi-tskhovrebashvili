@@ -45,6 +45,18 @@ tr, th {
     color: var(--dark);
 }
 
+#title {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    display: flex;
+    flex-direction: column;
+    background: var(--white);
+    border: var(--white);
+}
+
 tr, td {
     border-bottom: 1px solid var(--light-grey);
     padding-block: 12px;

@@ -3,7 +3,7 @@ const initData = async () => {
     console.log(data);
 
     const table = document.querySelector('table');
-    
+
     for (const course of data) {
         const tr = document.createElement('tr');
         tr.innerHTML = `
@@ -16,7 +16,7 @@ const initData = async () => {
         `;
         table.appendChild(tr);
     }
-
+    
 };
 
 initData();
