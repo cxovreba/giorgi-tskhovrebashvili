@@ -4,7 +4,7 @@
 .container {
     width: 375px;
     margin: auto;
-    background-image: url(./icons/bg-weather.png);
+    background-image: url(./mobile-icons/bg-weather.png);
 }
 
 * {
@@ -26,6 +26,12 @@ body {
     margin-inline: 22px;
 }
 
+.home-btn {
+    background-image: url(./mobile-icons/home-btn.png);
+    width: 39px;
+    height: 20.5px;
+}
+
 .search {
     width: 125px;
     border-bottom: 1px solid var(--white);
@@ -40,6 +46,15 @@ body {
     margin-left: -3px;
     font-size: 12px;
     color: var(--shady-white);
+}
+
+.search-btn button {
+    cursor: pointer;
+    background: transparent url(./mobile-icons/fa_search.png);
+    border: 0;
+    margin-left: -3px;
+    width: 12px;
+    height: 11px;
 }
 
 .weather-info {
@@ -72,6 +87,9 @@ body {
 
 .weather {
     margin-left: -5px;
+    background-image: url(./mobile-icons/Cloudy.png);
+    width: 40px;
+    height: 40px;
 }
 
 .weather-details {
@@ -131,7 +149,58 @@ body {
     color: var(--white);
 }
 
+.condition-info div {
+    width: 20px;
+    height: 21px;
+    background-repeat: no-repeat;
+}
+
+.image1 {
+    background-image: url(./mobile-icons/Vector.png);
+}
+
+.image2 {
+    background-image: url(./mobile-icons/Vector\ \(1\).png);
+}
+
+.image3 {
+    background-image: url(./mobile-icons/humadity.png);
+}
+
+.image4 {
+    background-image: url(./mobile-icons/outline.png);
+}
+
+.image5 {
+    background-image: url(./mobile-icons/wind.png);
+}
+
 .rectangle {
     border: 1px solid var(--white);
     margin-top: 70px;
+}
+
+.search1 {
+    width: 125px;
+    border-bottom: 1px solid var(--white);
+    display: none;
+    align-items: center;
+}
+
+.search-box1 input {
+    width: 114px;
+    background: transparent;
+    border: 0;
+    margin-left: -3px;
+    font-size: 12px;
+    color: var(--shady-white);
+}
+
+.search-btn1 button {
+    cursor: pointer;
+    background: transparent url(./mobile-icons/fa_search.png);
+    border: 0;
+    margin-left: -3px;
+    width: 12px;
+    height: 11px;
 }
