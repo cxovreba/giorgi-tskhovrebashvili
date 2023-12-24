@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Noto+Serif+Georgian&family=Plus+Jakarta+Sans&family=Poppins&family=Roboto&family=Russo+One&display=swap');
+@import url(./color.css);
+
+.container {
+    width: 375px;
+    margin: auto;
+    background-image: url(./icons/bg-weather.png);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    font-style: normal;
+    line-height: normal;
+    font-weight: 400;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    gap: 168px;
+    padding-top: 19px;
+    margin-inline: 22px;
+}
+
+.search {
+    width: 125px;
+    border-bottom: 1px solid var(--white);
+    display: flex;
+    align-items: center;
+}
+
+.search-box input {
+    width: 114px;
+    background: transparent;
+    border: 0;
+    margin-left: -3px;
+    font-size: 12px;
+    color: var(--shady-white);
+}
+
+.weather-info {
+    display: flex;
+    color: var(--white);
+    align-items: center;
+    gap: 12px;
+    margin: 100px 22px 30px;
+}
+
+.tempature {
+    font-size: 64px;
+    letter-spacing: -5.12px;
+}
+
+.tempature h4 {
+    margin-block: 0px;
+}
+
+.city h2 {
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: -5px;
+}
+
+.time-info p {
+    font-size: 10px;
+    margin: 0;
+}
+
+.weather {
+    margin-left: -5px;
+}
+
+.weather-details {
+    width: 375px;
+    text-align: center;
+    border-top: 5px solid rgba(255, 255, 255, 0.14);
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(9.5px);
+    padding-block: 55px;
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.info p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.detailed-info {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-inline: 45px;
+    color: var(--white);
+}
+
+.status {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.condition {
+    display: flex;
+    justify-content: space-between;
+}
+
+.condition p {
+    color: var(--shady-white);
+}
+
+.detailed-info p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.condition-info {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.condition-info p {
+    margin: 0;
+    color: var(--white);
+}
+
+.rectangle {
+    border: 1px solid var(--white);
+    margin-top: 70px;
+}
