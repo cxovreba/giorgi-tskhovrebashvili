@@ -6,7 +6,7 @@
     }
 
     .header {
-        gap: 325px;
+        gap: 285px;
         margin-inline: 39px;
         padding-top: 13px;
     }
@@ -45,11 +45,11 @@
         letter-spacing: -9.6px;
     }
 
-    .city h2 {
+    .city {
         font-size: 48px;
     }
 
-    .time-info p {
+    .time-date {
         font-size: 16px;
     }
 
@@ -66,7 +66,7 @@
         gap: 55px;
     }
 
-    .info p {
+    .info {
         font-size: 18px;
     }
 
@@ -152,11 +152,11 @@
         letter-spacing: -11.44px;
     }
 
-    .city h2 {
+    .city {
         font-size: 60px;
     }
 
-    .time-info p {
+    .time-date {
         font-size: 18px;
     }
 

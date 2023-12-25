@@ -70,19 +70,14 @@ body {
     letter-spacing: -5.12px;
 }
 
-.tempature h4 {
-    margin-block: 0px;
-}
-
-.city h2 {
-    margin: 0;
+.city {
     font-size: 30px;
     margin-bottom: -5px;
 }
 
-.time-info p {
+.time-date {
+    display: flex;
     font-size: 10px;
-    margin: 0;
 }
 
 .weather {
@@ -105,9 +100,8 @@ body {
     gap: 30px;
 }
 
-.info p {
+.info {
     font-size: 14px;
-    margin: 0;
 }
 
 .detailed-info {
