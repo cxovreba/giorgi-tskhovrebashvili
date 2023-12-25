@@ -3,7 +3,7 @@
 @import url(color.css);
 
 .container {
-    width: 1400px;
+    width: 1300px;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -23,7 +23,6 @@
 body {
     margin: 0;
     background: var(--white);
-    padding: 118px 237px 62px 66px;
 }
 
 .note p {
