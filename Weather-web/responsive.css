@@ -40,7 +40,7 @@
         gap: 17px;
     }
 
-    .tempature {
+    #tempature {
         font-size: 120px;
         letter-spacing: -9.6px;
     }
@@ -147,7 +147,7 @@
         width: 760px;
     }
 
-    .tempature {
+    #tempature {
         font-size: 143px;
         letter-spacing: -11.44px;
     }
