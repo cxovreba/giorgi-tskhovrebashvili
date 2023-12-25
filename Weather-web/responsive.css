@@ -128,7 +128,7 @@
         grid-column: 1 / 3;
         margin-inline: 116px 0px;
         padding-top: 37px;
-        width: 780px;
+        width: 760px;
     }
 
     .home-btn {
@@ -144,7 +144,7 @@
     .weather-info {
         grid-column: 1 / 3;
         margin: 460px 0px 85px 116px;
-        width: 780px;
+        width: 760px;
     }
 
     .tempature {
