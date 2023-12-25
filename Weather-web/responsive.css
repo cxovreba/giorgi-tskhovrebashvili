@@ -2,6 +2,9 @@
 @media screen and (min-width: 768px) {
     .container {
         width: 720px;
+    }
+
+    body {
         background-image: url(./tablet-icons/bg-weather.png);
     }
 
@@ -119,9 +122,12 @@
 @media screen and (min-width: 1440px) {
     .container {
         width: 1400px;
-        background-image: url(./desktop-icons/bg-weather\ \(1\).png);
         display: grid;
         grid-template-columns: repeat(3, auto);
+    }
+
+    body {
+        background-image: url(./desktop-icons/bg-weather\ \(1\).png);
     }
 
     .header {

@@ -4,7 +4,6 @@
 .container {
     width: 375px;
     margin: auto;
-    background-image: url(./mobile-icons/bg-weather.png);
 }
 
 * {
@@ -17,6 +16,9 @@
 
 body {
     margin: 0;
+    background-image: url(./mobile-icons/bg-weather.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .header {
