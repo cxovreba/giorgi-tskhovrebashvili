@@ -7,7 +7,7 @@
     margin: auto;
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 18px;
 }
 
 * {
@@ -22,7 +22,7 @@
 
 body {
     margin: 0;
-    background: var(--white);
+    background: var(--light-grey);
 }
 
 .note p {
@@ -34,6 +34,8 @@ body {
 
 table {
     width: 1200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: var(--white);
 }
 
 tr, th {
@@ -77,4 +79,8 @@ tr, td {
 
 .status1 {
     text-align: center;
+}
+
+#search {
+    border: 0;
 }
