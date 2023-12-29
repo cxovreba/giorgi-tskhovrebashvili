@@ -133,7 +133,7 @@ li div {
     gap: 14px;
 }
 
-.checkbox {
+#checkbox {
     position: relative;
     width: 25px;
     height: 25px;
@@ -166,7 +166,7 @@ li div {
     }
 }
 
-.btn1 {
+#btn1 {
     background-image: url(./pic/akar-icons_trash-can.svg);
     background-color: var(--white);
     width: 24px;
@@ -186,7 +186,7 @@ li div {
 
 li p {
     position: absolute;
-    top: 7px;
+    top: 15px;
     font-size: 14px;
     color: var(--grey);
 }
