@@ -1,0 +1,207 @@
+<!DOCTYPE htm>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather app</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="app.js" defer></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="head"></div>
+            <div class="start">
+                <input id="switch-btn" type="button">
+                <div class="settings">
+                    <button class="search"></button>
+                    <div class="lang"></div>
+                    <button class="menu"></button>
+                </div>
+            </div>
+            <div class="weather-today">
+                <div class="location">
+                    <div class="status"></div>
+                    <div class="city">Tbilisi</div>
+                </div>
+                <div class="tempature">+18<small>°</small></div>
+                <div class="info">Sunny, clear skies, swirling winds</div>
+            </div>
+            <div class="houerly-weather">
+                <div class="houerly-status">
+                    <div class="time">Now</div>
+                    <div class="status1"></div>
+                    <div class="tempature1">18<small>°</small></div>
+                </div>
+                <div class="houerly-status">
+                    <div class="time">12</div>
+                    <div class="status1"></div>
+                    <div class="tempature1">19<small>°</small></div>
+                </div>
+                <div class="houerly-status">
+                    <div class="time">13</div>
+                    <div class="status1"></div>
+                    <div class="tempature1">21<small>°</small></div>
+                </div>
+                <div class="houerly-status">
+                    <div class="time">14</div>
+                    <div class="status1"></div>
+                    <div class="tempature1">22<small>°</small></div>
+                </div>
+                <div class="houerly-status">
+                    <div class="time">15</div>
+                    <div class="status1"></div>
+                    <div class="tempature1">24<small>°</small></div>
+                </div>
+                <div class="houerly-status">
+                    <div class="time">16</div>
+                    <div class="status1"></div>
+                    <div class="tempature1">26<small>°</small></div>
+                </div>
+                <div class="houerly-status">
+                    <div class="time">17</div>
+                    <div class="status1"></div>
+                    <div class="tempature1">26<small>°</small></div>
+                </div>
+            </div>
+            <div class="week-forecast">
+                <div class="name">
+                    <div class="text">7 days Forecast</div>
+                    <button class="arrow"></button>
+                </div>
+                <div class="daily-forecast">
+                    <div class="condition">
+                        <div class="status1"></div>
+                        <div class="tempature2">
+                            <div class="day">+18<small>°</small></div>
+                            <div class="night">/+17<small>°</small></div>
+                        </div>
+                    </div>
+                    <div class="date">11 September</div>
+                    <div class="week-day">Today</div>
+                </div>
+                <div class="daily-forecast">
+                    <div class="condition">
+                        <div class="status2"></div>
+                        <div class="tempature2">
+                            <div class="day">+24<small>°</small></div>
+                            <div class="night">/+17<small>°</small></div>
+                        </div>
+                    </div>
+                    <div class="date">12 September</div>
+                    <div class="week-day">Tue</div>
+                </div>
+                <div class="daily-forecast">
+                    <div class="condition">
+                        <div class="status3"></div>
+                        <div class="tempature2">
+                            <div class="day">+20<small>°</small></div>
+                            <div class="night">/+14<small>°</small></div>
+                        </div>
+                    </div>
+                    <div class="date">13 September</div>
+                    <div class="week-day">Wed</div>
+                </div>
+                <div class="daily-forecast">
+                    <div class="condition">
+                        <div class="status4"></div>
+                        <div class="tempature2">
+                            <div class="day">+26<small>°</small></div>
+                            <div class="night">/+16<small>°</small></div>
+                        </div>
+                    </div>
+                    <div class="date">14 September</div>
+                    <div class="week-day">Thu</div>
+                </div>
+                <div class="daily-forecast">
+                    <div class="condition">
+                        <div class="status5"></div>
+                        <div class="tempature2">
+                            <div class="day">+19<small>°</small></div>
+                            <div class="night">/+15<small>°</small></div>
+                        </div>
+                    </div>
+                    <div class="date">15 September</div>
+                    <div class="week-day">Fri</div>
+                </div>
+                <div class="daily-forecast">
+                    <div class="condition">
+                        <div class="status1"></div>
+                        <div class="tempature2">
+                            <div class="day">+24<small>°</small></div>
+                            <div class="night">/+17<small>°</small></div>
+                        </div>
+                    </div>
+                    <div class="date">16 September</div>
+                    <div class="week-day">Sat</div>
+                </div>
+                <div class="daily-forecast">
+                    <div class="condition">
+                        <div class="status2"></div>
+                        <div class="tempature2">
+                            <div class="day">+24<small>°</small></div>
+                            <div class="night">/+19<small>°</small></div>
+                        </div>
+                    </div>
+                    <div class="date">17 September</div>
+                    <div class="week-day">Sun</div>
+                </div>
+            </div>
+            <div class="other-forecast">
+                <div class="card-container">
+                    <div class="name1">Moon phase</div>
+                    <div class="complect">
+                        <div class="img"></div>
+                        <div class="info1">Full moon</div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="name2">UV Index</div>
+                    <div class="complect">
+                        <div class="img1"></div>
+                        <div class="info1"><h3>4.3</h3>UV</div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="name3">Sunrise & Sunset</div>
+                    <div class="complect">
+                        <div class="img2"></div>
+                        <div class="time1">
+                            <div class="sunrise">
+                                <div class="icon"></div>
+                                5:30 AM
+                            </div>
+                            <div class="sunset">
+                                <div class="icon1"></div>
+                                6:40 AM
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container1">
+                    <div class="name4">Humidity</div>
+                    <div class="condition1">
+                        <div class="info2"><h3>30</h3>%</div>
+                        <div class="icon2"></div>
+                    </div>
+                    <div class="text1">The dew point is 17 right now</div>
+                </div>
+                <div class="card-container1">
+                    <div class="name1">visibility</div>
+                    <div class="condition1">
+                        <div class="info2"><h3>02</h3>km</div>
+                        <div class="icon3"></div>
+                    </div>
+                    <div class="text1">Haze is affecting visibility</div>
+                </div>
+                <div class="card-container1">
+                    <div class="name1">feels like</div>
+                    <div class="condition1">
+                        <div class="info2"><h3>24</h3>°</div>
+                        <div class="icon4"></div>
+                    </div>
+                    <div class="text1">Humidity is making it feel hotter</div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
