@@ -26,12 +26,6 @@ body {
     background-size: cover;
 }
 
-.head {
-    background-image: url(./icons/iPhone\ 13.png);
-    width: 428px;
-    height: 47px;
-}
-
 .start {
     display: flex;
     justify-content: space-between;
