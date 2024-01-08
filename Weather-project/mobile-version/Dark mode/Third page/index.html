@@ -1,0 +1,61 @@
+<!DOCTYPE htm>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather app</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="app.js" defer></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="start">
+                <div class="switch">
+                    <input id="normal" type="checkbox" style="display: none;">
+                    <label class="toggle-item" for="normal"></label>
+                </div>
+                <div class="settings">
+                    <button class="search"></button>
+                    <div class="lang"></div>
+                    <button class="menu"></button>
+                </div>
+            </div>
+            <div class="name">Stay Ahead of the Sky!</div>
+            <div class="info">Enter your number and get real-time weather updates for your location, right on your phone.</div>
+            <div class="contact">
+                <input class="mobile" type="tel">
+                <input class="city" type="text">
+            </div>
+            <div class="info">Choose the types of weather updates you’d like to receive</div>
+            <div class="mark">
+                <div class="alert">
+                    <div class="cold">
+                        <input id="one" type="checkbox">
+                        <span class="check"></span>
+                        <label for="one">Rain Alerts</label>
+                    </div>
+                    <div class="cold">
+                        <input id="two" type="checkbox">
+                        <span class="check"></span>
+                        <label for="two">Storm Alerts</label>
+                    </div>
+                </div>
+                <div class="alert">
+                    <div class="cold">
+                        <input id="three" type="checkbox">
+                        <span class="check"></span>
+                        <label for="three">Snow Alerts</label>
+                    </div>
+                    <div class="cold">
+                        <input id="four" type="checkbox">
+                        <span class="check"></span>
+                        <label for="four">Wind Alerts</label>
+                    </div>
+                </div>
+            </div>
+            <div class="btn">
+                <button>Get Started</button>
+            </div>
+        </div>
+    </body>
+</html>

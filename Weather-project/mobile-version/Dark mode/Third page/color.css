@@ -1,0 +1,12 @@
+:root {
+    --dark-blue: linear-gradient(180deg, #1E2C37 0%, #1F3341 100%);
+    --white: #FFFFFF;
+    --light: #DEE5FF;
+    --dark: #2B404F;
+    --black: rgba(0, 0, 0, 0.30);
+    --grey: rgba(255, 255, 255, 0.40);
+    --light-grey: rgba(255, 255, 255, 0.60);
+    --dark-grey: rgba(112, 112, 112, 0.20);
+    --ocean-blue: linear-gradient(180deg, #72A4EA 0%, #FFF 110.05%);
+    --sky-blue: #A4C4F2;
+}
