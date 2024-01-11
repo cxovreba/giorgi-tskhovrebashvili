@@ -1,7 +1,7 @@
 @import url(color.css);
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Noto+Serif+Georgian&family=Plus+Jakarta+Sans&family=Poppins&family=Roboto&family=Russo+One&display=swap');
 
-.container1 {
+.container {
     display: flex;
     margin: auto;
     width: 1400px;
@@ -268,6 +268,12 @@ label.toggle-item {
 }
 
 .city {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--grey);
+}
+
+.city1 {
     font-size: 16px;
     font-weight: 400;
     color: var(--grey);
