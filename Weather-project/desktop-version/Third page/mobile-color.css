@@ -1,0 +1,18 @@
+:root {
+    --dark-blue: linear-gradient(180deg, #1E2C37 0%, #1F3341 100%);
+    --dark-black: #121212;
+    --white: #FFFFFF;
+    --light: #DEE5FF;
+    --dark: #2B404F;
+    --black: rgba(0, 0, 0, 0.30);
+    --grey: rgba(255, 255, 255, 0.40);
+    --light-grey: rgba(255, 255, 255, 0.60);
+    --dark-grey: rgba(112, 112, 112, 0.20);
+    --sun: #FAC32D;
+    --light-blue: radial-gradient(344.65% 167.74% at 0% 0%, rgba(0, 0, 0, 0.04) 0%, rgba(255, 255, 255, 0.00) 100%);
+    --dark-green: rgba(255, 255, 255, 0.04);
+    --hover: linear-gradient(92deg, #FFF -277.19%, rgba(255, 255, 255, 0.00) 98.79%);
+    --matt: linear-gradient(275deg, rgba(21, 23, 26, 0.30) 60.04%, rgba(67, 69, 71, 0.29) 69.38%, rgba(116, 117, 119, 0.28) 83.13%, rgba(255, 255, 255, 0.24) 107.2%, rgba(21, 23, 26, 0.30) 111.12%);
+    --ocean-blue: linear-gradient(180deg, #72A4EA 0%, #FFF 110.05%);
+    --sky-blue: #A4C4F2;
+}
