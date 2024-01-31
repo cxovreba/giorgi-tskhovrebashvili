@@ -1,5 +1,4 @@
 const add = document.querySelector('.btn');
-const input = document.querySelector('input');
 
 setInterval(() => {
     document.getElementById('currentTime').innerText = new Date().toLocaleTimeString('en-Us', {timeStyle: 'short'});
